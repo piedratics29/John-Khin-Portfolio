@@ -961,15 +961,14 @@ a {
   color: var(--cream);
 }
 
-.footer-brand span {
+.footer-brand img {
   width: 30px;
   height: 30px;
-  display: grid;
-  place-items: center;
+  display: block;
+  flex: 0 0 auto;
   border: 1px solid var(--white-line);
   border-radius: 50%;
-  color: var(--acid);
-  font-size: 8px;
+  object-fit: cover;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2225,10 +2224,6 @@ body {
 .contact-section footer {
   font-size: 12px;
   line-height: 1.5;
-}
-
-.footer-brand span {
-  font-size: 10px;
 }
 
 @media (max-width: 780px) {
